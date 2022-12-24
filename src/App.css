@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card {
+  margin-top: 130px !important;
+  margin-left:700px !important
+  }
+  .header{
+    background-color: #fcad03 !important;
+    text-align:center !important;
+    color:aliceblue;
+    margin-bottom: 3px;
+  }
+
+  .label{
+    text-align: left !important;
+  }
+
+  .row{
+    margin:2px
+  }
