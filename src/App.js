@@ -6,7 +6,6 @@ import Register from "./Register";
 import Login from "./Login";
 import Forget from './Forget'
 import Resetpass from './Resetpass'
-import Urlshortner from './Urlshortner';
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
     <Route path="/" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/change-password" element={<Resetpass/>} />
-      <Route path="/forget" element={<Forget />} />
-      <Route path="/urlshorten" element={<Urlshortner />} />
-   
+      <Route path="/forget" element={<Forget />} />   
     </Routes>
     </BrowserRouter>
     </div>

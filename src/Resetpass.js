@@ -16,9 +16,9 @@ function Resetpass() {
     onSubmit: async (values) => {
            try {
         const user = await axios.post(`${config.api}/reset-password/:id/:token`, values);
-        if (user.data.message === "success") {
-          navigate("/login");
-        }
+
+          navigate("/");
+
       } catch (error) {
         alert(error.response.data.message);
       }

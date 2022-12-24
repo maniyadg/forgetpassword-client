@@ -18,7 +18,7 @@ function Register() {
       try {
         const user = await axios.post(`${config.api}/user/register`, values);
 if(user.data.message === "success"){
-navigate('/login')
+navigate('/')
 }
        
       } catch (error) {
@@ -78,7 +78,7 @@ navigate('/login')
               value={"Submit"}
             />
           </div>
-          <Link to="/register" className="option-list">
+          <Link to="/login" className="option-list">
             Sign-in
           </Link>
         </div>

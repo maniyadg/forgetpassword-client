@@ -3,7 +3,6 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import './App.css';
 import { useFormik } from "formik";
-import { useNavigate } from "react-router-dom";
 import { config } from "./Config";
 
 function Forget() {

@@ -71,7 +71,7 @@ function Login() {
             Create new account
           </Link>
 
-          <Link to="/forgot" className="option-list">
+          <Link to="/forget" className="option-list">
             Forgot Password?
           </Link>
         </div>
