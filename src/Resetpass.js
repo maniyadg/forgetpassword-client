@@ -70,6 +70,6 @@ function Resetpass() {
       </form>
     </div>
   );
-}
+  }
 
 export default Resetpass;
